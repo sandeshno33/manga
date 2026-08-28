@@ -1,0 +1,72 @@
+================================================================================
+KNIGHTS OF SIDONIA - CHAPTER 1: HUMANIZED VOICEOVER SCRIPT
+================================================================================
+Format: Direct, Natural, Conversational Multi-Voice Dub
+Total Lines: 38
+
+================================================================================
+ACT 1: THE SIMULATED BATTLE
+================================================================================
+Line 01 [Narrator]: "In deep space, humanity is fighting an endless war against monsters known as the Gauna."
+Line 02 [Narrator]: "These creatures can regenerate almost instantly. Normal weapons don't even scratch them."
+Line 03 [Narrator]: "The only way to kill one is to pierce its core with a heavy mecha called a Garde."
+Line 04 [Narrator]: "One clean hit. Target down."
+Line 05 [Narrator]: "Except this wasn't real space. It was an underground simulation pod, piloted by a starving kid named Nagate who held every high score on the ship."
+
+================================================================================
+ACT 2: THE HUNGER
+================================================================================
+Line 06 [Narrator]: "Nagate grew up completely isolated in the underground tunnels. When his grandfather died three years ago, he was left all on his own."
+Line 07 [Nagate]: "Nothing. There's not a single grain of rice left."
+Line 08 [Narrator]: "Starving after two days without food, Nagate broke his grandfather's strict rule and climbed up the air ducts."
+Line 09 [Nagate]: "Whoa! Oof!"
+Line 10 [Narrator]: "He found a massive rice silo, but immediately fell straight into the sorting machine."
+
+================================================================================
+ACT 3: THE CHASE & THE SKY
+================================================================================
+Line 11 [Worker]: "Intruder in Sector 8! It's a rice thief! Grab him!"
+Line 12 [Nagate]: "Wait, please! I'm just hungry!"
+Line 13 [Narrator]: "Cornered in the vents, Nagate kicked through a window and tumbled outside."
+Line 14 [Narrator]: "For the first time in his life, he saw the city above. But completely out of energy, he passed out on the pavement."
+Line 15 [Investigator]: "Your grandfather died seventeen years ago, and you aren't in any database. Who are you?"
+Line 16 [Nagate]: "Can I stand up? Everything's spinning..."
+
+================================================================================
+ACT 4: MEDICAL BAY & PHOTOSYNTHESIS
+================================================================================
+Line 17 [Ochiai]: "Two days without food and you faint. Sucks that you can't photosynthesize like the rest of us."
+Line 18 [Nagate]: "Don't turn me into fertilizer!"
+Line 19 [Ochiai]: "Relax. Someone important wants to sponsor you. Name's Ochiai. You got lucky, kid."
+Line 20 [Narrator]: "People on Sidonia produce energy from sunlight, but Nagate is a regular human who needs real food to survive."
+Line 21 [Kobayashi]: "Nagate Tanikaze. Follow me. I have something to show you."
+Line 22 [Lala]: "Here's your room, Nagate. Those clothes stink, so put this uniform on."
+Line 23 [Nagate]: "Wait... you're a talking bear with a robot arm?"
+
+================================================================================
+ACT 5: ACADEMY BLUNDER
+================================================================================
+Line 24 [Shizuka]: "Hey, you're that boy from earlier. What are you doing here?"
+Line 25 [Instructor]: "Hey! Hook your safety belt to the wall rail! If we hit turbulence, you'll fly into the wall and die. Go check every bolt in this hallway!"
+Line 26 [Narrator]: "Attached to the wall rail, Nagate followed the line right into an open room."
+Line 27 [Cadets]: "Kyaaa! Pervert! Get out!"
+Line 28 [Nagate]: "Wait! It's a mistake, the belt pulled me in!"
+Line 29 [Nagate]: "Hi everyone. My name is Nagate Tanikaze."
+Line 30 [Honoka]: "Hi everyone? What a weird guy."
+
+================================================================================
+ACT 6: IMMORTAL COUNCIL
+================================================================================
+Line 31 [Elder]: "A Gauna cluster has entered our sector, within three light years."
+Line 32 [Kobayashi]: "We can't negotiate with them. If we want to survive, we have to fight."
+Line 33 [Narrator]: "The cadets thought the Gauna were just history, but the captain knew the war was starting again."
+
+================================================================================
+ACT 7: SEED SHIP SIDONIA & TSUGUMORI
+================================================================================
+Line 34 [Narrator]: "This is the starship Sidonia, traveling through deep space a thousand years after Earth was destroyed."
+Line 35 [Nagate]: "So this is what real space looks like."
+Line 36 [Narrator]: "Waiting in the hangar was the Type 17 Tsugumori, the legendary mecha his grandfather once flew."
+Line 37 [Kobayashi]: "Will you pilot this machine and protect Sidonia, Nagate?"
+Line 38 [Nagate]: "And of course, I said yes. That was the day I became a pilot."
+================================================================================
