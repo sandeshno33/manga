@@ -1,0 +1,13 @@
+{
+  "name": "manga-video-studio",
+  "version": "1.0.0",
+  "description": "Motion Comic & Manhwa Video Studio",
+  "scripts": {
+    "dev": "npm --prefix my-video run dev",
+    "studio": "npm --prefix my-video run dev",
+    "render": "cd my-video && npx remotion render SoloMaxLevelNewbie ../out/Solo_Max_Level_Newbie_Saga.mp4 --codec=h264 --crf=23 --audio-bitrate=128k --pixel-format=yuv420p --overwrite",
+    "render:solo": "cd my-video && npx remotion render SoloMaxLevelNewbie ../out/Solo_Max_Level_Newbie_Saga.mp4 --codec=h264 --crf=23 --audio-bitrate=128k --pixel-format=yuv420p --overwrite",
+    "render:sidonia": "cd my-video && npx remotion render KnightsOfSidoniaChapter1 ../out/Knights_of_Sidonia_Trilogy.mp4 --codec=h264 --crf=23 --audio-bitrate=128k --pixel-format=yuv420p --overwrite",
+    "build": "npm --prefix my-video run build"
+  }
+}

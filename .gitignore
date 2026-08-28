@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+my-video/node_modules/
+
+# Remotion Cache & Output
+.remotion/
+my-video/.remotion/
+out/
+*.mp4
+
+# OS & Logs
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# Temporary test artifacts
+test_*.wav
+test_*.jpg
+test_*.png
+my-video/out_*.png

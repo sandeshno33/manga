@@ -1,0 +1,3310 @@
+{
+  "spreads": [
+    [
+      null,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      49,
+      null
+    ]
+  ],
+  "pages": [
+    {
+      "uuid": "e463d3e7-2f9f-42fd-b6e3-b70512d2fb47",
+      "spread_index": 0,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "119cdc04-515e-4e54-9b01-394b04309471",
+        "aspect_ratio_decimal": 1.4,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "119cdc04-515e-4e54-9b01-394b04309471",
+        "aspect_ratio_decimal": 1.4,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/119cdc04-515e-4e54-9b01-394b04309471/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "575de3cc-6e9b-4f33-b6d3-5c341770b485",
+      "spread_index": 1,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "dc39941a-0adf-4246-aeed-c9d0a2190dfa",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "dc39941a-0adf-4246-aeed-c9d0a2190dfa",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/dc39941a-0adf-4246-aeed-c9d0a2190dfa/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "c5b3d0f5-183b-47fb-b9e0-3cfde75491a2",
+      "spread_index": 1,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "72f0072a-2caf-446b-b68a-a2bbef76b971",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "72f0072a-2caf-446b-b68a-a2bbef76b971",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/72f0072a-2caf-446b-b68a-a2bbef76b971/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "e94693a6-dea7-4abf-bbe0-752e63a4985d",
+      "spread_index": 2,
+      "is_double_page": true,
+      "side": "right",
+      "image": {
+        "uuid": "0b95a8d1-a0c3-429b-871a-b045b0e98611",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "0b95a8d1-a0c3-429b-871a-b045b0e98611",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/0b95a8d1-a0c3-429b-871a-b045b0e98611/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "5ba7f405-d339-43b2-a2c3-5f421682bdce",
+      "spread_index": 2,
+      "is_double_page": true,
+      "side": "left",
+      "image": {
+        "uuid": "e63e1a83-9e51-4057-a0bb-6070e908525f",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "e63e1a83-9e51-4057-a0bb-6070e908525f",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e63e1a83-9e51-4057-a0bb-6070e908525f/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "31ac1134-a40b-4624-b46b-e9a88635f4ec",
+      "spread_index": 3,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ddb37eab-23ba-4bd3-ae53-3bcbea4e3e50/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "cddd18a4-7625-4293-a8cc-c0f7eec17167",
+      "spread_index": 3,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "a03c2db0-eb13-4689-aafe-8d1676d59d69",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "a03c2db0-eb13-4689-aafe-8d1676d59d69",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/a03c2db0-eb13-4689-aafe-8d1676d59d69/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ed0892fe-44a2-4f5a-942a-e7dbe1500200",
+      "spread_index": 4,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "56a0908c-863e-400d-ac4c-dfa9254e58c8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "56a0908c-863e-400d-ac4c-dfa9254e58c8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/56a0908c-863e-400d-ac4c-dfa9254e58c8/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "daa9351e-4434-4980-b9e9-7a4d330ebb1f",
+      "spread_index": 4,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "422e1217-cc5a-4735-bd2b-e2da4122a567",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "422e1217-cc5a-4735-bd2b-e2da4122a567",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/422e1217-cc5a-4735-bd2b-e2da4122a567/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "addf54ff-366b-4fa4-a979-10e49a30528a",
+      "spread_index": 5,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "79dba0e2-5fda-4856-94d5-d88ae45c3658",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "79dba0e2-5fda-4856-94d5-d88ae45c3658",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/79dba0e2-5fda-4856-94d5-d88ae45c3658/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "0ee78797-59a7-4775-a233-9f24abdee205",
+      "spread_index": 5,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "e93d3185-ecf6-44cb-94e8-6acbea08c5a0",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "e93d3185-ecf6-44cb-94e8-6acbea08c5a0",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e93d3185-ecf6-44cb-94e8-6acbea08c5a0/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "5e74a008-7127-4142-b5f4-38e2a3b1b2e3",
+      "spread_index": 6,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "0e7486b2-1773-4732-8c9a-ae6fa83ed537",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "0e7486b2-1773-4732-8c9a-ae6fa83ed537",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/0e7486b2-1773-4732-8c9a-ae6fa83ed537/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "198dee38-5074-4a3b-9957-19f91897411e",
+      "spread_index": 6,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "ea366a79-c59d-42dd-8762-62b58464100b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "ea366a79-c59d-42dd-8762-62b58464100b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ea366a79-c59d-42dd-8762-62b58464100b/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b2b28a9c-596e-4d7b-891d-ca909fb04472",
+      "spread_index": 7,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "8f59c894-692c-4ea9-870b-50d864233c43",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "8f59c894-692c-4ea9-870b-50d864233c43",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8f59c894-692c-4ea9-870b-50d864233c43/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "08f2652e-4ec3-40aa-b480-20f0df7437bb",
+      "spread_index": 7,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "5b70a06d-403f-4fb5-880e-809c56a9363c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "5b70a06d-403f-4fb5-880e-809c56a9363c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/5b70a06d-403f-4fb5-880e-809c56a9363c/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "1e53f857-dbc5-4d33-9985-61cd696a6c4b",
+      "spread_index": 8,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "8917bdb1-34de-491e-940f-a9fe736396ca",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "8917bdb1-34de-491e-940f-a9fe736396ca",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8917bdb1-34de-491e-940f-a9fe736396ca/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d2638ebf-4851-4950-a6c7-9900d9462238",
+      "spread_index": 8,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "12a5c2fc-51c7-483a-b083-cfc8928ea19c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "12a5c2fc-51c7-483a-b083-cfc8928ea19c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/12a5c2fc-51c7-483a-b083-cfc8928ea19c/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b8dd4aa6-5d74-4915-8cba-dfa2fc51f9d9",
+      "spread_index": 9,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "3fbc9960-8bb4-41b3-8f9c-68fb68e3c196",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "3fbc9960-8bb4-41b3-8f9c-68fb68e3c196",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/3fbc9960-8bb4-41b3-8f9c-68fb68e3c196/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d3de57d4-199e-446d-84b0-b05f15d0edbc",
+      "spread_index": 9,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "7f0ea4df-e789-4514-84e6-c245353765f8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "7f0ea4df-e789-4514-84e6-c245353765f8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/7f0ea4df-e789-4514-84e6-c245353765f8/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "686c523d-be2b-4966-8b77-ba6c209fea0c",
+      "spread_index": 10,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "4db5fcdb-d912-4d7d-aecf-d4ea57fb1148",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "4db5fcdb-d912-4d7d-aecf-d4ea57fb1148",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/4db5fcdb-d912-4d7d-aecf-d4ea57fb1148/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "0dab42f6-1ce8-44f2-80f9-17df02244f7b",
+      "spread_index": 10,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "162a9a4a-0c60-4379-a98f-ec67ff0882c6",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "162a9a4a-0c60-4379-a98f-ec67ff0882c6",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/162a9a4a-0c60-4379-a98f-ec67ff0882c6/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "7cbd2bf1-27d7-4544-b724-3664c11574de",
+      "spread_index": 11,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "f2ed3c09-b0ad-4236-a249-811328c5eac7",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "f2ed3c09-b0ad-4236-a249-811328c5eac7",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/f2ed3c09-b0ad-4236-a249-811328c5eac7/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "e37c5fe4-2ead-426d-8a3b-3ff69a1e6883",
+      "spread_index": 11,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "96f0345b-f342-4ba5-91ec-c31dc01eba67",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "96f0345b-f342-4ba5-91ec-c31dc01eba67",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/96f0345b-f342-4ba5-91ec-c31dc01eba67/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ae3233b5-87e8-4f32-ae11-0b4eb13596b3",
+      "spread_index": 12,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "c2ba444d-9f64-46c0-9359-12d4d1efc721",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "c2ba444d-9f64-46c0-9359-12d4d1efc721",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/c2ba444d-9f64-46c0-9359-12d4d1efc721/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "668a4751-84a5-419a-937e-34f02cd4bdce",
+      "spread_index": 12,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "b3121322-d540-4371-b86f-bc4934cda657",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "b3121322-d540-4371-b86f-bc4934cda657",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/b3121322-d540-4371-b86f-bc4934cda657/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "dad2cf47-0ce8-4f1a-9835-954bdd5fd180",
+      "spread_index": 13,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "e471d84a-1587-4750-8ca2-0bd5bb930567",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "e471d84a-1587-4750-8ca2-0bd5bb930567",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e471d84a-1587-4750-8ca2-0bd5bb930567/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "2937a186-cc46-4928-bad5-4e159b2631aa",
+      "spread_index": 13,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "9f4e797f-7be8-4de8-8c80-c4fa7f71bd95",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "9f4e797f-7be8-4de8-8c80-c4fa7f71bd95",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/9f4e797f-7be8-4de8-8c80-c4fa7f71bd95/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "14504459-cc98-4004-8985-c53a9c45048f",
+      "spread_index": 14,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "d9e64a0b-59e5-4f05-b8e8-701742188f15",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "d9e64a0b-59e5-4f05-b8e8-701742188f15",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/d9e64a0b-59e5-4f05-b8e8-701742188f15/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "a9e9a273-d33d-4eda-a082-d38fee7f3f96",
+      "spread_index": 14,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "424c713b-2ad2-46cd-bac1-5e7d75708a14",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "424c713b-2ad2-46cd-bac1-5e7d75708a14",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/424c713b-2ad2-46cd-bac1-5e7d75708a14/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "666cf2e2-4317-4c4b-baaa-b99afb85fd35",
+      "spread_index": 15,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "ddfcc7c2-0f36-40ab-8169-8bea765d07b9",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "ddfcc7c2-0f36-40ab-8169-8bea765d07b9",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ddfcc7c2-0f36-40ab-8169-8bea765d07b9/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "6054915f-0b36-41ac-9560-7a2b3828f51c",
+      "spread_index": 15,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "93408882-6ffa-4f87-ad59-1326c3d08fd0",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "93408882-6ffa-4f87-ad59-1326c3d08fd0",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/93408882-6ffa-4f87-ad59-1326c3d08fd0/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "6d118acd-177a-4bd6-93aa-2072b4054190",
+      "spread_index": 16,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "fca346fe-4a71-4f11-aef4-59b9cc09494b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "fca346fe-4a71-4f11-aef4-59b9cc09494b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fca346fe-4a71-4f11-aef4-59b9cc09494b/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "7d7bede4-6f14-4066-a1eb-02343eb8aaa8",
+      "spread_index": 16,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "e832bcd0-7803-491b-ba68-4204830e0fb8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "e832bcd0-7803-491b-ba68-4204830e0fb8",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/e832bcd0-7803-491b-ba68-4204830e0fb8/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "15f96dfc-3227-4567-92a3-26401a4766ef",
+      "spread_index": 17,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "a54c1d72-fce5-4014-a335-e54e6b253b8c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "a54c1d72-fce5-4014-a335-e54e6b253b8c",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/a54c1d72-fce5-4014-a335-e54e6b253b8c/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d05732cc-8695-4f1e-91c4-15be6228825e",
+      "spread_index": 17,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "4258f213-9ac0-4ee6-bfb6-8d8760215e50",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "4258f213-9ac0-4ee6-bfb6-8d8760215e50",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/4258f213-9ac0-4ee6-bfb6-8d8760215e50/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "d10f9512-3b75-413a-a58b-747951f19f8e",
+      "spread_index": 18,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "aef21750-bfea-45c7-b2be-7911096e0034",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "aef21750-bfea-45c7-b2be-7911096e0034",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/aef21750-bfea-45c7-b2be-7911096e0034/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "436bf44b-e706-4fc1-b598-fea73c2bdcce",
+      "spread_index": 18,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "2400008d-1fd9-47c5-862a-dac74b65c209",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "2400008d-1fd9-47c5-862a-dac74b65c209",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/2400008d-1fd9-47c5-862a-dac74b65c209/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "63e018a5-50e5-4a8b-a414-55fa0ac15599",
+      "spread_index": 19,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "8d19d75f-11a5-49c5-a592-6661428685aa",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "8d19d75f-11a5-49c5-a592-6661428685aa",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8d19d75f-11a5-49c5-a592-6661428685aa/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b68055ab-912e-49d2-8f72-f08ed0f4a60b",
+      "spread_index": 19,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "10a7273f-7031-441a-bfda-3c6ab8121c1b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "10a7273f-7031-441a-bfda-3c6ab8121c1b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/10a7273f-7031-441a-bfda-3c6ab8121c1b/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "adf33137-d501-4b44-b1eb-96102533c3b0",
+      "spread_index": 20,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "3e64581c-8c5e-4b37-878d-f47870789570",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "3e64581c-8c5e-4b37-878d-f47870789570",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/3e64581c-8c5e-4b37-878d-f47870789570/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "35a1e5e4-fed4-4e8c-9cb7-3d43f69c07d1",
+      "spread_index": 20,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "fb0822ed-8c7c-4037-8615-a3460e2252e2",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "fb0822ed-8c7c-4037-8615-a3460e2252e2",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fb0822ed-8c7c-4037-8615-a3460e2252e2/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "5ed61498-a3a0-48c2-be9a-182123d2911d",
+      "spread_index": 21,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "fa192764-5c24-46d5-a750-c8c5e3b32ada",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "fa192764-5c24-46d5-a750-c8c5e3b32ada",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/fa192764-5c24-46d5-a750-c8c5e3b32ada/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "03404cb4-7e66-48dc-9855-3db097585098",
+      "spread_index": 21,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "8c620a7f-d23f-46a9-9b88-7d72f34d3c8b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "8c620a7f-d23f-46a9-9b88-7d72f34d3c8b",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/8c620a7f-d23f-46a9-9b88-7d72f34d3c8b/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "19911b6c-c1af-4514-8830-9cf65de24ad1",
+      "spread_index": 22,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "d416a069-4dd0-4849-8a92-fa3bcfce4041",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "d416a069-4dd0-4849-8a92-fa3bcfce4041",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/d416a069-4dd0-4849-8a92-fa3bcfce4041/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "78765f0e-a69f-4102-ae1b-55da26f9d193",
+      "spread_index": 22,
+      "is_double_page": false,
+      "side": "left",
+      "image": {
+        "uuid": "1c92a56a-381f-4402-b71e-d2fa6267ce71",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "1c92a56a-381f-4402-b71e-d2fa6267ce71",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/1c92a56a-381f-4402-b71e-d2fa6267ce71/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "db45aea0-f728-40b4-9474-54ade4f7e6e5",
+      "spread_index": 23,
+      "is_double_page": true,
+      "side": "right",
+      "image": {
+        "uuid": "12534723-f9e9-4410-a79e-539ad4fd5dea",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "12534723-f9e9-4410-a79e-539ad4fd5dea",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/12534723-f9e9-4410-a79e-539ad4fd5dea/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "425226ec-d694-4de0-9377-961860064bbc",
+      "spread_index": 23,
+      "is_double_page": true,
+      "side": "left",
+      "image": {
+        "uuid": "5e30bf37-cc33-4206-b9a0-4b19653a8e28",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "5e30bf37-cc33-4206-b9a0-4b19653a8e28",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/5e30bf37-cc33-4206-b9a0-4b19653a8e28/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "7100f32f-546b-4d44-86c9-d4b22a9e0f04",
+      "spread_index": 24,
+      "is_double_page": true,
+      "side": "right",
+      "image": {
+        "uuid": "6aab598f-72af-4257-a875-cabd64483f47",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "6aab598f-72af-4257-a875-cabd64483f47",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/6aab598f-72af-4257-a875-cabd64483f47/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "b09bdc11-bef6-4308-8dfd-18270cb15fcf",
+      "spread_index": 24,
+      "is_double_page": true,
+      "side": "left",
+      "image": {
+        "uuid": "34502d5d-ee0a-4e09-94a3-8c664e09eb22",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "34502d5d-ee0a-4e09-94a3-8c664e09eb22",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/34502d5d-ee0a-4e09-94a3-8c664e09eb22/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "59f5ede3-2357-4ec5-9142-12e261494475",
+      "spread_index": 25,
+      "is_double_page": false,
+      "side": "right",
+      "image": {
+        "uuid": "ea9ab681-afed-4ef9-aace-192837e899ac",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/800.webp",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/1200.webp",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/1600.webp",
+            "width": 1600,
+            "height": 2240
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/800.jpg",
+            "width": 800,
+            "height": 1120
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/1200.jpg",
+            "width": 1200,
+            "height": 1680
+          },
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/1600.jpg",
+            "width": 1600,
+            "height": 2240
+          }
+        ]
+      },
+      "image_wm": {
+        "uuid": "ea9ab681-afed-4ef9-aace-192837e899ac",
+        "aspect_ratio_decimal": 1.4001,
+        "max_width": 1600,
+        "webp": [
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/800_watermark.webp",
+            "width": 800,
+            "height": 1120
+          }
+        ],
+        "jpg": [
+          {
+            "url": "https://production.image-content.azuki.co/ea9ab681-afed-4ef9-aace-192837e899ac/800_watermark.jpg",
+            "width": 800,
+            "height": 1120
+          }
+        ]
+      }
+    }
+  ]
+}

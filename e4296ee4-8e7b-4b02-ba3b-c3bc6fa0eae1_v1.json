@@ -1,0 +1,103 @@
+{
+  "chapter": {
+    "uuid": "e4296ee4-8e7b-4b02-ba3b-c3bc6fa0eae1",
+    "order_number": 100,
+    "full_name": "Knights of Sidonia Chapter 1",
+    "short_name": "Chapter 1",
+    "label": "1",
+    "title": null,
+    "series_uuid": "7d6559a1-9168-42cb-b4c3-aa5708705be3",
+    "manga_uuid": "7d6559a1-9168-42cb-b4c3-aa5708705be3",
+    "volume_uuid": "426a1986-1aa0-4069-bbf9-78f481e701ce",
+    "release_date": "2021-06-29T05:00:00+00:00",
+    "free_release_date": "2021-05-26T06:21:51+00:00",
+    "service_published_date": "2021-06-29T05:00:00+00:00",
+    "free_published_date": "2021-05-26T06:21:51+00:00",
+    "free_unpublished_date": null,
+    "original_published_date": null,
+    "is_new": false,
+    "is_upcoming": false,
+    "is_premium": false,
+    "is_pass_eligible": false,
+    "last_updated_at": null,
+    "product": null
+  },
+  "manga": {
+    "uuid": "7d6559a1-9168-42cb-b4c3-aa5708705be3",
+    "slug": "knights-of-sidonia",
+    "type": "comic",
+    "color": "Blue",
+    "name": "Knights of Sidonia",
+    "short_description": "Outer space, the far future.\u00a0A lone seed ship, the Sidonia, plies the void, ten centuries since the obliteration of the solar system. The massive, nearly indestructible, yet barely sentient alien life forms that destroyed humanity\u2019s home world continue to pose an existential threat.\u00a0Nagate Tanikaze has only known life in the vessel\u2019s bowels deep below the sparkling strata where humans have achieved photosynthesis and new genders. Not long after he emerges from the Underground, however, the youth is bequeathed a treasured legacy by the spaceship\u2019s coolheaded female captain. Meticulously drawn, peppered with clipped humor, but also unusually attentive to plot and structure, Knights of Sidonia may be Tsutomu Nihei\u2019s most accessible work to date even as it hits notes of tragic grandeur as a hopeless struggle for survival unfolds. \u201cOne of Knights of Sidonia\u2019s\u00a0chief strengths is that it doesn\u2019t bog down the intrigue of its world with too much unnecessary, bloated dialogue\u2026 Dig into the first volume and see if Nihei\u2019s gorgeously depicted wreck of a sci-fi future doesn\u2019t secure an immediately tight grip.\u201d \u2014Otaku USA \u201cTsutomu Nihei has been knocking on America\u2019s door for ages now. Tokyopop released his ten-volume epic Blame!,\u00a0pronounced \u201cblam\u201d like a gunshot, and its prequel, Noise in the United States. In 2006, he earned a coveted spot in the amazingly awesome (and financially successful) Halo Graphic Novel,\u00a0standing shoulder to shoulder with superstar artists like Moebius, Simon Bisley, and Geof Darrow, among others.\u201d\u2014Comics Alliance \u201cTo complement his expert art, Nihei gives his story some welcome strange touches, such as the spacesuits having a built-in catheter than automatically inserts itself into the wearer\u2014and we see the panels of Nagate shuddering as he experiences this for the first time\u2026 The Sidonia residents face the wrath of a tentacled (of course) monster that would give H.P. Lovecraft a boner, and the stakes are very real. There\u2019s also a talking bear, and no one blinks.\u201d \u2014BookGasm",
+    "last_updated_at": "2025-11-26T09:31:32+00:00",
+    "is_ltr": false,
+    "is_vertical": false,
+    "publisher_uuid": "9612895e-1f91-440e-a503-cc6aacda0075",
+    "amazon_affiliate": null,
+    "is_complete": true,
+    "age_rating": {
+      "rating": 16,
+      "label": "Teen"
+    },
+    "image": {
+      "uuid": "aa0167c0-399c-4f30-8ee0-fb5507b3fad9",
+      "aspect_ratio_decimal": 1.4,
+      "max_width": 1600,
+      "webp": [
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/200_2-3.webp",
+          "width": 200,
+          "height": 300
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/400_2-3.webp",
+          "width": 400,
+          "height": 600
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/600_2-3.webp",
+          "width": 600,
+          "height": 900
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/800_2-3.webp",
+          "width": 800,
+          "height": 1200
+        }
+      ],
+      "jpg": [
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/200_2-3.jpg",
+          "width": 200,
+          "height": 300
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/400_2-3.jpg",
+          "width": 400,
+          "height": 600
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/600_2-3.jpg",
+          "width": 600,
+          "height": 900
+        },
+        {
+          "url": "https://production.image.azuki.co/aa0167c0-399c-4f30-8ee0-fb5507b3fad9/800_2-3.jpg",
+          "width": 800,
+          "height": 1200
+        }
+      ]
+    },
+    "tags": [],
+    "is_pass_eligible": false,
+    "total_passes": 0,
+    "pass_recharge_hours": 0,
+    "pass_unlock_hours": 0,
+    "free_available_chapters": 3,
+    "premium_available_chapters": 36,
+    "alc_available_chapters": 80,
+    "total_available_chapters": 80,
+    "service_published_date": "2021-06-28T21:51:26+00:00",
+    "original_published_date": null
+  }
+}
