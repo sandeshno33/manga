@@ -1,0 +1,163 @@
+{
+  "chapter_info": {
+    "uuid": "fa5845c2-d014-4cc5-864b-027bfc513acb",
+    "order_number": 102,
+    "full_name": "Knights of Sidonia Chapter 3",
+    "short_name": "Chapter 3",
+    "label": "3",
+    "title": null,
+    "series_uuid": "7d6559a1-9168-42cb-b4c3-aa5708705be3",
+    "manga_uuid": "7d6559a1-9168-42cb-b4c3-aa5708705be3",
+    "volume_uuid": "426a1986-1aa0-4069-bbf9-78f481e701ce",
+    "release_date": "2021-06-29T05:00:00+00:00",
+    "free_release_date": "2021-05-26T06:25:31+00:00",
+    "service_published_date": "2021-06-29T05:00:00+00:00",
+    "free_published_date": "2021-05-26T06:25:31+00:00",
+    "free_unpublished_date": null,
+    "original_published_date": null,
+    "is_new": false,
+    "is_upcoming": false,
+    "is_premium": false,
+    "is_pass_eligible": false,
+    "last_updated_at": null
+  },
+  "total_pages": 34,
+  "pages": [
+    {
+      "page_number": 1,
+      "filename": "page_001.jpg"
+    },
+    {
+      "page_number": 2,
+      "filename": "page_002.jpg"
+    },
+    {
+      "page_number": 3,
+      "filename": "page_003.jpg"
+    },
+    {
+      "page_number": 4,
+      "filename": "page_004.jpg"
+    },
+    {
+      "page_number": 5,
+      "filename": "page_005.jpg"
+    },
+    {
+      "page_number": 6,
+      "filename": "page_006.jpg"
+    },
+    {
+      "page_number": 7,
+      "filename": "page_007.jpg"
+    },
+    {
+      "page_number": 8,
+      "filename": "page_008.jpg"
+    },
+    {
+      "page_number": 9,
+      "filename": "page_009.jpg"
+    },
+    {
+      "page_number": 10,
+      "filename": "page_010.jpg"
+    },
+    {
+      "page_number": 11,
+      "filename": "page_011.jpg"
+    },
+    {
+      "page_number": 12,
+      "filename": "page_012.jpg"
+    },
+    {
+      "page_number": 13,
+      "filename": "page_013.jpg"
+    },
+    {
+      "page_number": 14,
+      "filename": "page_014.jpg"
+    },
+    {
+      "page_number": 15,
+      "filename": "page_015.jpg"
+    },
+    {
+      "page_number": 16,
+      "filename": "page_016.jpg"
+    },
+    {
+      "page_number": 17,
+      "filename": "page_017.jpg"
+    },
+    {
+      "page_number": 18,
+      "filename": "page_018.jpg"
+    },
+    {
+      "page_number": 19,
+      "filename": "page_019.jpg"
+    },
+    {
+      "page_number": 20,
+      "filename": "page_020.jpg"
+    },
+    {
+      "page_number": 21,
+      "filename": "page_021.jpg"
+    },
+    {
+      "page_number": 22,
+      "filename": "page_022.jpg"
+    },
+    {
+      "page_number": 23,
+      "filename": "page_023.jpg"
+    },
+    {
+      "page_number": 24,
+      "filename": "page_024.jpg"
+    },
+    {
+      "page_number": 25,
+      "filename": "page_025.jpg"
+    },
+    {
+      "page_number": 26,
+      "filename": "page_026.jpg"
+    },
+    {
+      "page_number": 27,
+      "filename": "page_027.jpg"
+    },
+    {
+      "page_number": 28,
+      "filename": "page_028.jpg"
+    },
+    {
+      "page_number": 29,
+      "filename": "page_029.jpg"
+    },
+    {
+      "page_number": 30,
+      "filename": "page_030.jpg"
+    },
+    {
+      "page_number": 31,
+      "filename": "page_031.jpg"
+    },
+    {
+      "page_number": 32,
+      "filename": "page_032.jpg"
+    },
+    {
+      "page_number": 33,
+      "filename": "page_033.jpg"
+    },
+    {
+      "page_number": 34,
+      "filename": "page_034.jpg"
+    }
+  ]
+}

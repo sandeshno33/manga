@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knights of Sidonia — Chapter 1 Multi-Voice Storyboard & Director Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #080c14;
+      --panel-bg: #0f172a;
+      --card-bg: #141e33;
+      --border-color: #1e293b;
+      --accent-cyan: #06b6d4;
+      --accent-glow: rgba(6, 182, 212, 0.35);
+      --accent-red: #ef4444;
+      --accent-amber: #f59e0b;
+      --accent-purple: #8b5cf6;
+      --accent-pink: #ec4899;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(8, 12, 20, 0.8) 100%);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.85rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #0284c7, #06b6d4);
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      letter-spacing: 2px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .brand-title h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #fff;
+    }
+
+    .brand-title p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #1e293b;
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 10px var(--accent-glow);
+      color: var(--accent-cyan);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0284c7, #06b6d4);
+      border-color: #38bdf8;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #0369a1, #0891b2);
+      color: #fff;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .scene-nav {
+      background: #0b1120;
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.5rem 2rem;
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .scene-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 0.35rem 0.85rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .scene-btn:hover {
+      color: var(--text-main);
+      background: rgba(255,255,255,0.05);
+    }
+
+    .scene-btn.active {
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+      background: rgba(6, 182, 212, 0.1);
+      box-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 480px 1fr;
+      flex: 1;
+      height: calc(100vh - 120px);
+      overflow: hidden;
+    }
+
+    @media (max-width: 1024px) {
+      .workspace {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+    }
+
+    /* Left panel: Image View & Controller */
+    .left-panel {
+      background: #0a0f1d;
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .image-viewport {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #030712;
+      position: relative;
+      overflow: hidden;
+      padding: 1rem;
+    }
+
+    .manga-image {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      transition: transform 0.3s ease;
+    }
+
+    .image-controls {
+      background: var(--panel-bg);
+      border-top: 1px solid var(--border-color);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .page-indicator {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      color: var(--accent-cyan);
+      letter-spacing: 1px;
+    }
+
+    /* Right panel: Narration & Video Director Desk */
+    .right-panel {
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      background: var(--bg-dark);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .scene-header-card {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9));
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--accent-cyan);
+      border-radius: 8px;
+      padding: 1.15rem;
+    }
+
+    .scene-tag {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75rem;
+      color: var(--accent-cyan);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+
+    .scene-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .scene-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .meta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .meta-badge span {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .director-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .director-box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .director-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.9rem;
+    }
+
+    .card-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75rem;
+      color: var(--accent-amber);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      letter-spacing: 0.5px;
+    }
+
+    .card-content {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+
+    .audio-card .card-title {
+      color: var(--accent-purple);
+    }
+
+    .script-section {
+      background: var(--panel-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.25rem;
+    }
+
+    .script-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+
+    .script-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .dialogue-bubble {
+      margin-bottom: 1rem;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      border-left: 3px solid #64748b;
+    }
+
+    .dialogue-bubble.narrator {
+      border-left-color: var(--accent-cyan);
+      background: rgba(6, 182, 212, 0.06);
+    }
+
+    .dialogue-bubble.character-nagate {
+      border-left-color: var(--accent-amber);
+      background: rgba(245, 158, 11, 0.06);
+    }
+
+    .dialogue-bubble.character-ochiai {
+      border-left-color: #38bdf8;
+      background: rgba(56, 189, 248, 0.06);
+    }
+
+    .dialogue-bubble.character-kobayashi {
+      border-left-color: var(--accent-purple);
+      background: rgba(139, 92, 246, 0.06);
+    }
+
+    .dialogue-bubble.character-lala {
+      border-left-color: #eab308;
+      background: rgba(234, 179, 8, 0.06);
+    }
+
+    .dialogue-bubble.character-girls {
+      border-left-color: var(--accent-pink);
+      background: rgba(236, 72, 153, 0.06);
+    }
+
+    .dialogue-bubble.character-military {
+      border-left-color: var(--accent-red);
+      background: rgba(239, 68, 68, 0.06);
+    }
+
+    .speaker-name {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .expression-tag {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #93c5fd;
+      background: rgba(30, 58, 138, 0.4);
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-bottom: 0.35rem;
+      display: inline-block;
+      letter-spacing: 0.3px;
+    }
+
+    .speech-text {
+      font-size: 0.95rem;
+      line-height: 1.55;
+      color: #f8fafc;
+    }
+
+    .filmstrip-container {
+      background: #030712;
+      border-top: 1px solid var(--border-color);
+      padding: 0.6rem 2rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+    }
+
+    .filmstrip-thumb {
+      height: 65px;
+      width: 48px;
+      border-radius: 4px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      object-fit: cover;
+      opacity: 0.5;
+      transition: all 0.2s;
+    }
+
+    .filmstrip-thumb:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+
+    .filmstrip-thumb.active {
+      border-color: var(--accent-cyan);
+      opacity: 1;
+      box-shadow: 0 0 12px var(--accent-glow);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-badge">SIDONIA MK-I</div>
+      <div class="brand-title">
+        <h1>KNIGHTS OF SIDONIA — CHAPTER 1</h1>
+        <p>Multi-Voice Storyboard & Expression Tagged Voiceover Studio</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="prevBtn">◀ PREV PAGE</button>
+      <button class="btn" id="nextBtn">NEXT PAGE ▶</button>
+      <button class="btn btn-primary" id="playAudioBtn">🔊 READ VOICEOVER</button>
+      <button class="btn" id="copyScriptBtn">📋 COPY SCRIPT</button>
+    </div>
+  </header>
+
+  <nav class="scene-nav" id="sceneNav">
+    <!-- Populated dynamically via JS -->
+  </nav>
+
+  <div class="workspace">
+    <!-- Left panel: Manga Viewer -->
+    <div class="left-panel">
+      <div class="image-viewport">
+        <img id="currentImage" class="manga-image" src="./photos/page_001.jpg" alt="Manga Page">
+      </div>
+      <div class="image-controls">
+        <div class="page-indicator" id="pageIndicator">PAGE 01 / 50</div>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn" style="padding:0.35rem 0.6rem; font-size:0.75rem;" id="zoomInBtn">🔍 ZOOM +</button>
+          <button class="btn" style="padding:0.35rem 0.6rem; font-size:0.75rem;" id="zoomResetBtn">RESET</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right panel: Director Desk & Narration -->
+    <div class="right-panel">
+      <div class="scene-header-card">
+        <div class="scene-tag" id="sceneTag">ACT 1: THE SIMULATED BATTLE IN THE ABYSS</div>
+        <div class="scene-title" id="sceneTitle">Deep Space Mecha Sortie vs Gauna</div>
+        <div class="scene-meta">
+          <div class="meta-badge">⏱ Timecode: <span id="timecode">00:00 - 02:15</span></div>
+          <div class="meta-badge">📑 Page Range: <span id="pageRange">Pages 1 – 9</span></div>
+          <div class="meta-badge">🎵 BGM: <span id="bgmBadge">Theme B (High-Octane Mecha Battle)</span></div>
+        </div>
+      </div>
+
+      <div class="director-box">
+        <div class="director-card">
+          <div class="card-title">🎥 VISUAL DIRECTION & KEN BURNS MOTION</div>
+          <div class="card-content" id="visualDirection">
+            Slow zoom-out from the white mechanical head of the Garde mech into a wide shot of deep space. Space dust drifting across the frame.
+          </div>
+        </div>
+        <div class="director-card audio-card">
+          <div class="card-title">🔊 SOUND DESIGN & SFX</div>
+          <div class="card-content" id="sfxContent">
+            Deep space ambient drone, sudden rocket thruster ignition roar, high vibration blade hum.
+          </div>
+        </div>
+      </div>
+
+      <div class="script-section">
+        <div class="script-header">
+          <div class="script-title">🎙️ MULTI-VOICE CAST LINES & EXPRESSION TAGS</div>
+        </div>
+        <div id="dialogueContainer">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Filmstrip -->
+  <div class="filmstrip-container" id="filmstrip">
+    <!-- Populated dynamically -->
+  </div>
+
+  <script>
+    const storyData = [
+      {
+        sceneId: 1,
+        title: "The Simulated Battle in the Abyss",
+        pages: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        pageRangeText: "Pages 1 – 9",
+        timecode: "00:00 - 02:15",
+        bgm: "Theme B (High-Octane Mecha Battle)",
+        visuals: {
+          1: "Slow zoom-out from the mechanical visor of the Garde mecha into a vast starfield. Subtle space dust particle motion.",
+          2: "High-speed tracking pan across Gauna tentacles. Camera shakes violently on organic impact.",
+          3: "Ken Burns push-in toward the pulsating alien placenta.",
+          4: "Rapid zoom as the Garde Tsugumori draws its high-vibration blade. Quick flash cuts.",
+          5: "Blade cutting through outer placenta flesh with glowing speedlines.",
+          6: "Slow-motion slice through the red core. Gauna disintegrates into particulate mist.",
+          7: "Explosion shockwave dissipates into digital scanlines.",
+          8: "Cockpit HUD flashes: 'SIMULATION COMPLETE - RANK S'. Pneumatic hatch slides open.",
+          9: "Pan up revealing disheveled, sweat-drenched Nagate Tanikaze holding every all-time high score."
+        },
+        sfx: "Deep space low hum, thruster booster roars, fleshy tentacle whip, blade hum, core crystal shattering reverb, cockpit pneumatic hiss.",
+        narration: [
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Deep, cinematic, atmospheric gravity]", text: "Deep space. A cold, unforgiving abyss where humanity's last survivors wage an endless war against the cosmic horrors that devoured their home world." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Tense, urgent pacing]", text: "They are called the Gauna. Shapeshifting leviathans of indestructible biological mass. Immune to almost every weapon ever forged by man..." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Building intense excitement]", text: "Only a Garde heavy mecha, striking with microscopic precision at the hidden core beneath the placenta, stands any hope of victory." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Decisive, sharp delivery]", text: "One strike. Core pierced. Target destroyed." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Subtle shift to intriguing, mysterious tone]", text: "Yet this battle wasn't fought across the cold stars of deep space. It took place inside a forgotten simulation capsule buried thousands of meters beneath the earth." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Awe-inspired, emphasizing mastery]", text: "And inside sat a starving boy named Nagate Tanikaze... holding the number one record across thousands of consecutive simulated combat sorties." }
+        ]
+      },
+      {
+        sceneId: 2,
+        title: "The Hunger in the Underground",
+        pages: [10, 11, 12, 13, 14, 15, 16, 17],
+        pageRangeText: "Pages 10 – 17",
+        timecode: "02:15 - 04:30",
+        bgm: "Theme C (Melancholic Desolation)",
+        visuals: {
+          10: "Slow vertical tilt down towering subterranean pipes, rusty iron catwalks, and damp tunnels.",
+          11: "Static, lingering close-up on the motionless body of his deceased grandfather Hiroki Saito in the chair.",
+          12: "Close-up on Nagate opening the metal rice cooker. Spotless and completely empty.",
+          13: "Low angle looking up into forbidden maintenance ducts. 'DO NOT ENTER' warning signs.",
+          14: "Nagate climbing vertical ladders in the dark shaft.",
+          15: "Nagate squeezing through tight air ducts toward the upper levels.",
+          16: "Vast industrial automated rice silo in Food Storage Unit 8.",
+          17: "Nagate loses his balance and crashes into the high-speed rice conveyor hopper!"
+        },
+        sfx: "Water dripping, metallic footsteps on iron grates, stomach growl, metal ladder clanging, rushing grain whoosh, heavy crash THUD.",
+        narration: [
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Somber, quiet, storytelling tone]", text: "For as long as he could remember, Nagate had lived in the forgotten catacombs beneath Sidonia. Isolated from all human society, his entire existence was defined by rigorous simulator training and the words of his grandfather." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Melancholic, tender pause]", text: "Three years ago, his grandfather Hiroki passed away in that very chair. Since then, Nagate had survived down here in total isolation." },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Weak, trembling whisper, hoarse with dehydration]", text: "Empty... not even a single grain left..." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Serious, raising stakes]", text: "The emergency food rations had finally run out. After two agonizing days without a single bite to eat, starvation was setting in." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Tense, building anticipation]", text: "His grandfather had left behind one cardinal rule: never climb into the upper world. But pushed to the brink of death by hunger, Nagate broke the seal and climbed." },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Sudden terrified yelp as he falls]", text: "Whoaaaa—! Oof!" },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Dry amusement with dynamic energy]", text: "He had found paradise: thousands of tons of pristine rice. But falling directly into the main sorting hopper wasn't part of the plan." }
+        ]
+      },
+      {
+        sceneId: 3,
+        title: "The Rice Thief & The First Glimpse of the Sky",
+        pages: [18, 19, 20, 21, 22, 23, 24],
+        pageRangeText: "Pages 18 – 24",
+        timecode: "04:30 - 06:15",
+        bgm: "Theme D (Cyberpunk Chase) to Theme E (Grand Reveal)",
+        visuals: {
+          18: "Nagate frantically shoveling raw rice into his backpack.",
+          19: "Workers spot him and trigger alarm klaxons.",
+          20: "High-speed chase through industrial exhaust pipes and walkways.",
+          21: "Nagate kicks through a residential glass window and tumbles into the open!",
+          22: "Grand panoramic upward tilt: blinding sunlight, skyscrapers, anti-gravity bridges, and clouds!",
+          23: "Nagate collapses onto the sunlit pavement as cadets gather around him.",
+          24: "Interrogation room. Security officer slaps death records on the table. Nagate faints."
+        },
+        sfx: "Alarm klaxons, yelling shouts, glass shatter, wind rush, blinding light chime, table slap THUD.",
+        narration: [
+          { speaker: "🏭 FACTORY WORKER 1", type: "character-military", tag: "[Furious shouting through mask filter]", text: "Intruder in Storage Hopper 8! It's a rice thief! Security, block the exits!" },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Panic-stricken, pleading between gasps]", text: "Wait! Please! I just need a little to eat—!" },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Fast-paced, adrenaline-fueled delivery]", text: "Hunted through the maintenance chutes and backed against a dead end, Nagate threw himself through the glass, shattering the boundary of the only world he had ever known." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Awe-struck, poetic and grand voice]", text: "And in that breathless instant... the subterranean boy saw the sky." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Measured, emotional]", text: "A blinding city of steel and glass suspended within the belly of the colossal starship Sidonia. But Nagate's malnourished body could take no more." },
+          { speaker: "👮 INVESTIGATOR", type: "character-military", tag: "[Cold, interrogative, suspicious and commanding]", text: "Died three years ago? According to the Civil Registrations Office, Hiroki Saito's death certificate was filed seventeen years ago! Furthermore, the name 'Nagate Tanikaze' doesn't exist anywhere in Sidonia's database! Who are you really?!" },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Dizzy, slurred speech, swaying back and forth]", text: "Please... can I stop kneeling...? Everything's... spinning..." }
+        ]
+      },
+      {
+        sceneId: 4,
+        title: "Photosynthesis, The Agent & Lala the Bear",
+        pages: [25, 26, 27, 28, 29, 30, 31, 32],
+        pageRangeText: "Pages 25 – 32",
+        timecode: "06:15 - 08:30",
+        bgm: "Theme D (Intriguing / Ambient Sci-Fi)",
+        visuals: {
+          25: "Hospital bed. Agent Ochiai standing over Nagate.",
+          26: "Ochiai informs Nagate that a powerful sponsor wants him.",
+          27: "Glass elevator ascending through the clouds while Nagate eats fresh vegetables.",
+          28: "Ochiai introduces himself with a calm grin.",
+          29: "Arrival at top-floor grand residence.",
+          30: "Dramatic entrance of the masked Captain Kobayashi.",
+          31: "Cadet dorms. Lala Hiyama—the talking bear dorm matron with a robotic arm.",
+          32: "Nagate in his new room looking out over the megacity."
+        },
+        sfx: "Heart monitor beeping, elevator ascending hum, munching SFX, door hiss, robotic arm servo whir.",
+        narration: [
+          { speaker: "👔 AGENT OCHIAI", type: "character-ochiai", tag: "[Smooth, suave, mild amusement with subtle condescension]", text: "A mere two days without eating and you pass out cold. It must be tough... not being able to photosynthesize like the rest of us." },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Startled, bolting upright, trembling in terror]", text: "I-I'll never let you turn me into fertilizer in an organic-conversion reactor!" },
+          { speaker: "👔 AGENT OCHIAI", type: "character-ochiai", tag: "[Chuckles softly, reassuring]", text: "Calm down. Your medical exam came back immaculate. In fact, someone very powerful has taken an interest in you. Put on your safety belt and follow me." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Informative, documentary storytelling voice]", text: "Centuries ago, Sidonia's scientists genetically modified human DNA to absorb energy through photosynthesis, drastically cutting food consumption on their infinite voyage. Nagate, however, was a natural, unmodified human—wholly dependent on real food." },
+          { speaker: "👔 AGENT OCHIAI", type: "character-ochiai", tag: "[Confident, smooth smirk]", text: "The name's Ochiai. Consider this your lucky day, Tanikaze." },
+          { speaker: "👑 CAPTAIN KOBAYASHI", type: "character-kobayashi", tag: "[Regal, calm, deep authority with subtle warmth]", text: "Nagate Tanikaze, yes? Come. There is something I must show you." },
+          { speaker: "🐻 LALA HIYAMA", type: "character-lala", tag: "[Deep, warm, motherly rumble with gentle raspy texture]", text: "This will be your room, Nagate. Those rags you're wearing smell terrible—strip down and put this cadet uniform on immediately." },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Stammering, totally baffled]", text: "A... a talking bear...?" },
+          { speaker: "🐻 LALA HIYAMA", type: "character-lala", tag: "[Nonchalant, matter-of-fact tone]", text: "Oh, the arm? Got badly mangled when I was a cub. Never stopped me from doing my dorm matron duties, though." }
+        ]
+      },
+      {
+        sceneId: 5,
+        title: "The Academy Blunder & Photosynthesis Room",
+        pages: [33, 34, 35, 36, 37, 38, 39, 40],
+        pageRangeText: "Pages 33 – 40",
+        timecode: "08:30 - 10:00",
+        bgm: "Quirky Anime Comedy / Fast Tempo",
+        visuals: {
+          33: "Nagate meets cadet Shizuka Hoshijiro in the hallway.",
+          34: "Instructor catches Nagate without his safety tether line.",
+          35: "Nagate clipped to the hallway guide-rail, inspecting bolts.",
+          36: "The tether line slides directly into an open door.",
+          37: "Door sign: 'FEMALE PHOTOSYNTHESIS ROOM'. Dozens of girls sunbathing in underwear.",
+          38: "BAM! Flying kick sends Nagate flying, dangling from his harness with a broken nose.",
+          39: "Auditorium classroom. Nagate stands with a massive bandage over his face.",
+          40: "Nagate bows, stomach roars. The Honoka clone sisters stare in shock."
+        },
+        sfx: "Safety belt click, checklist scratching, tether sliding ZZWIP, ear-splitting screams, flying kick BAM, loud stomach growl.",
+        narration: [
+          { speaker: "👧 SHIZUKA HOSHIJIRO", type: "character-girls", tag: "[Soft, polite surprise]", text: "Ah... you're that boy from the street! Why are you here in the cadet quarters...?" },
+          { speaker: "🎖️ CADET INSTRUCTOR", type: "character-military", tag: "[Barks loudly with drill-sergeant fury]", text: "Hey! You! Your safety tether is completely detached! Do you have any idea how many cadets died during the emergency gravity halt last century?! You'll check and sign off on every safety rail fastener on this entire floor until it's drilled into your skull!" },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Explanatory, humorous undertone]", text: "Inside a hollow megastructure starship, a sudden course change without a tether meant getting splattered across the walls at supersonic speeds. Nagate was sentenced to checklist duty." },
+          { speaker: "🌸 FEMALE CADETS", type: "character-girls", tag: "[Ear-piercing, bloodcurdling unified scream]", text: "KYAAAAAAAAAH!! PERVERT! INTRUDER!!" },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Complete terror, waving hands desperately]", text: "W-Wait! It's a mistake! The rail dragged me in—" },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Muffled, nasal, deeply embarrassed bow]", text: "H-Hello, all! My name is Nagate Tanikaze..." },
+          { speaker: "🌸 HONOKA SISTERS (IN UNISON)", type: "character-girls", tag: "[Deadpan, icy, synchronized monotone murmur]", text: "'Hello all'...? What an odd creature." }
+        ]
+      },
+      {
+        sceneId: 6,
+        title: "The Immortal Council & The Outer Abyss",
+        pages: [41, 42, 43, 44, 45, 46],
+        pageRangeText: "Pages 41 – 46",
+        timecode: "10:00 - 11:30",
+        bgm: "Theme A (Dark Cosmic Dread / Ominous Synth)",
+        visuals: {
+          41: "Dark sanctuary of the Immortal Council. Ancient cybernetic beings floating in fluid pods.",
+          42: "Holographic display showing an enormous Gauna cluster ship.",
+          43: "Captain Kobayashi resolutely states that force is the only option.",
+          44: "Assembly hall. Captain Kobayashi standing before thousands of saluting pilot cadets.",
+          45: "Nagate recognizes her voice from their private meeting.",
+          46: "Blast doors slide open, exposing the void of space."
+        },
+        sfx: "Deep electronic drone, bubble glugs, radar pings, blast door grinding open.",
+        narration: [
+          { speaker: "🧠 COUNCIL ELDER 1", type: "character-military", tag: "[Ancient, rasping, heavily digitized synthetic voice]", text: "A Gauna cluster ship has entered Threat Range Level 3. Approaching within three light-years of Sidonia." },
+          { speaker: "🧠 COUNCIL ELDER 2", type: "character-military", tag: "[Ominous, calculated synthetic whisper]", text: "For one hundred years they remained silent in the dark. If we maintain silence, perhaps they will pass us by..." },
+          { speaker: "👑 CAPTAIN KOBAYASHI", type: "character-kobayashi", tag: "[Cold, absolute conviction, unyielding resolve]", text: "There is zero chance for dialogue. There is no guarantee they will spare us. The sole means of mankind's continued survival is the stern, unapologetic use of force." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Solemn, building epic scale]", text: "To the young cadets, the Gauna were mythical nightmares from ancient history books. But the Captain knew the grim reality: humanity's extinction was racing toward them across the stars." }
+        ]
+      },
+      {
+        sceneId: 7,
+        title: "Seed Ship Sidonia & The Legendary Tsugumori",
+        pages: [47, 48, 49, 50],
+        pageRangeText: "Pages 47 – 50",
+        timecode: "11:30 - 13:00",
+        bgm: "Theme E (Grand Mecha Awakening / Heroic Crescendo)",
+        visuals: {
+          47: "Slow pull-back revealing the 29km asteroid hull of Interstellar Ship Sidonia.",
+          48: "Nagate's eyes reflecting the infinite stars of the real universe.",
+          49: "Sidonia engines burning bright across the cosmos.",
+          50: "Floodlights snap on in the dark hangar, illuminating the pristine white Garde Type 17 Tsugumori."
+        },
+        sfx: "Deep galactic thruster roar, spotlights CLACK, hydraulic hiss, power surge.",
+        narration: [
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Epic, majestic, world-building resonance]", text: "The Interstellar Seed Ship Sidonia." },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Profound emotional weight]", text: "One thousand years after the total annihilation of Earth and the Solar System, this lonely ark drifts through the endless night of the universe, carrying the final flame of human civilization." },
+          { speaker: "👦 NAGATE", type: "character-nagate", tag: "[Breathless, trembling in pure awe and terror]", text: "So this... this is the real universe...?" },
+          { speaker: "🎙️ NARRATOR", type: "narrator", tag: "[Thrilling, climactic delivery]", text: "Waiting in the shadows of the highest hangar was the legendary Type 17 Tsugumori—the historic battle machine once commanded by his grandfather in wars of old." },
+          { speaker: "👑 CAPTAIN KOBAYASHI (VO)", type: "character-kobayashi", tag: "[Dignified, inspiring commander tone]", text: "Will you take its helm and become the shield of Sidonia, Nagate Tanikaze?" },
+          { speaker: "👦 NAGATE (VO)", type: "character-nagate", tag: "[Resolute, clear, filled with newfound purpose]", text: "And of course... I replied yes. That was the day I became a Garde pilot." }
+        ]
+      }
+    ];
+
+    let currentPage = 1;
+    const totalPages = 50;
+
+    function getSceneForPage(pageNum) {
+      return storyData.find(s => s.pages.includes(pageNum)) || storyData[0];
+    }
+
+    function initNav() {
+      const nav = document.getElementById('sceneNav');
+      nav.innerHTML = '';
+      storyData.forEach((scene, index) => {
+        const btn = document.createElement('button');
+        btn.className = `scene-btn ${index === 0 ? 'active' : ''}`;
+        btn.innerText = `ACT ${scene.sceneId}: ${scene.title.toUpperCase()}`;
+        btn.onclick = () => {
+          setPage(scene.pages[0]);
+        };
+        nav.appendChild(btn);
+      });
+
+      // Init filmstrip
+      const filmstrip = document.getElementById('filmstrip');
+      filmstrip.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const thumb = document.createElement('img');
+        const padded = String(i).padStart(3, '0');
+        thumb.src = `./photos/page_${padded}.jpg`;
+        thumb.className = `filmstrip-thumb ${i === 1 ? 'active' : ''}`;
+        thumb.id = `thumb-${i}`;
+        thumb.title = `Page ${i}`;
+        thumb.onclick = () => setPage(i);
+        filmstrip.appendChild(thumb);
+      }
+    }
+
+    function setPage(pageNum) {
+      if (pageNum < 1 || pageNum > totalPages) return;
+      currentPage = pageNum;
+
+      const padded = String(currentPage).padStart(3, '0');
+      document.getElementById('currentImage').src = `./photos/page_${padded}.jpg`;
+      document.getElementById('pageIndicator').innerText = `PAGE ${padded} / ${totalPages}`;
+
+      // Update filmstrip active
+      document.querySelectorAll('.filmstrip-thumb').forEach(t => t.classList.remove('active'));
+      const activeThumb = document.getElementById(`thumb-${currentPage}`);
+      if (activeThumb) {
+        activeThumb.classList.add('active');
+        activeThumb.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      }
+
+      // Update scene details
+      const scene = getSceneForPage(currentPage);
+      document.getElementById('sceneTag').innerText = `ACT ${scene.sceneId}: ${scene.title.toUpperCase()}`;
+      document.getElementById('sceneTitle').innerText = `${scene.title} — Page ${currentPage}`;
+      document.getElementById('timecode').innerText = scene.timecode;
+      document.getElementById('pageRange').innerText = scene.pageRangeText;
+      document.getElementById('bgmBadge').innerText = scene.bgm;
+
+      // Update Visuals & SFX
+      const pageVisual = scene.visuals[currentPage] || scene.visuals[scene.pages[0]] || "Dynamic Ken Burns panning over manga panels.";
+      document.getElementById('visualDirection').innerText = pageVisual;
+      document.getElementById('sfxContent').innerText = scene.sfx;
+
+      // Update nav buttons
+      document.querySelectorAll('.scene-btn').forEach((b, idx) => {
+        b.classList.toggle('active', storyData[idx].sceneId === scene.sceneId);
+      });
+
+      // Update dialogue
+      const container = document.getElementById('dialogueContainer');
+      container.innerHTML = '';
+      scene.narration.forEach(line => {
+        const bubble = document.createElement('div');
+        bubble.className = `dialogue-bubble ${line.type}`;
+        bubble.innerHTML = `
+          <div class="speaker-name">
+            <span>${line.speaker}</span>
+            <button class="btn" style="padding:2px 8px; font-size:0.7rem;" onclick="speakText('${line.text.replace(/'/g, "\\'")}')">▶ READ</button>
+          </div>
+          <div class="expression-tag">${line.tag}</div>
+          <div class="speech-text">"${line.text}"</div>
+        `;
+        container.appendChild(bubble);
+      });
+    }
+
+    function speakText(text) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.rate = 1.0;
+        utterance.pitch = 1.0;
+        window.speechSynthesis.speak(utterance);
+      } else {
+        alert("Web Speech API not supported in this browser.");
+      }
+    }
+
+    document.getElementById('prevBtn').onclick = () => setPage(currentPage - 1);
+    document.getElementById('nextBtn').onclick = () => setPage(currentPage + 1);
+
+    document.getElementById('playAudioBtn').onclick = () => {
+      const scene = getSceneForPage(currentPage);
+      const fullText = scene.narration.map(n => `${n.speaker}: ${n.text}`).join('. ');
+      speakText(fullText);
+    };
+
+    document.getElementById('copyScriptBtn').onclick = () => {
+      const scene = getSceneForPage(currentPage);
+      const fullText = scene.narration.map(n => `[${n.speaker}]\n${n.tag}\n"${n.text}"`).join('\n\n');
+      navigator.clipboard.writeText(fullText).then(() => {
+        alert("Scene dialogue with expression tags copied to clipboard!");
+      });
+    };
+
+    let isZoomed = false;
+    document.getElementById('zoomInBtn').onclick = () => {
+      const img = document.getElementById('currentImage');
+      isZoomed = !isZoomed;
+      img.style.transform = isZoomed ? 'scale(1.4)' : 'scale(1)';
+    };
+
+    document.getElementById('zoomResetBtn').onclick = () => {
+      isZoomed = false;
+      document.getElementById('currentImage').style.transform = 'scale(1)';
+    };
+
+    // Keyboard navigation
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        setPage(currentPage + 1);
+      } else if (e.key === 'ArrowLeft') {
+        setPage(currentPage - 1);
+      }
+    });
+
+    initNav();
+    setPage(1);
+  </script>
+</body>
+</html>
